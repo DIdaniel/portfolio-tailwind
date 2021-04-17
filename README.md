@@ -1,3 +1,34 @@
+### using tailwind CSS
+우선 사용하면서 너무 만족했다.
+재밋는 기능이 참 많고, 일반적인 css였다면 일일이 해줘야해서 손이 많이 가는 작업들이 한번에 되는 것을 보고 사용할만한 이유가 있다고 느껴졌다.
+
+css를 다룰 줄 안다면 조금만 공식사이트를 찾아보면 다 사용 할 수 있었다.
+또한 "https://nerdcave.com/tailwind-cheat-sheet" 이곳에서 말그대로 cheat를 조금 할 수 있다.
+그러니 css를 안다면 더 빠르게 찾아서 적용할 수 있을것이다!
+
+google font에서 사용되어지는 font를 사용하거나 할 때만 global css에서 잡아주면 되고 나머지는 className만 잘 작성하면 많은 작업들을 바로바로 할 수 있으니 일일이 css에 들어가지 않아도 되어서 편하기도 했다.
+
+justify-conent, align-items처럼 이름이 조금 긴 경우에는 justify, items라고 사용하기도 하지만 이런걸 제외하면 대부분 심플하고 직관적이게 사용되었다.
+
+화면 사이즈의 경우에도 @media screen을 사용하지 않고, sm, lg 이런 식으로 지정해주니까 유연하게 바뀌는 것을 보고 새삼 다시 감탄했다.
+
+flex-col
+=> flex-direction: column
+
+justify-center
+=> justify-content: center
+
+lg:pt-32
+=> 화면 사이즈가 large일 때, padding-top 사이즈 지정
+
+전혀 모르면 이상하겠지만, 조금만 알면 더 이상 찾아보지 않아도 될만큼 이해할 수 있다.
+
+그렇다면 어떤 문제는 없었을까?
+조금 더 섬세하게 하는데는 문제가 있었다.
+나는 어떤 값과 값의 사이의 17.3px 정도를 맞춰야한다면 이런것은 어려웠다.
+아래의 이미지처럼 이렇게 px 혹은 %가 지정이 되어있어서 섬세하게 하는데는 무리가 있지만 빠르고 간결하게 하는데는 문제가 없었다.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
