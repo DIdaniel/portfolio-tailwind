@@ -5,17 +5,17 @@ const Hire = () => {
 		<section className="showcase">
 			<div className="overlay flex flex-col items-center justify-center">
 				<div className="flex flex-col w-9/12 lg:w-auto lg:flex-row">
-					<div className="bg-green-500 p-10 rounded lg:px-5 lg:pt-32 ">
-						<h2 className="text-white text-center text-5xl font-semibold mb-5 lg:text-6xl">Hire Me</h2>
+					<div className="bg-green-500 p-10 rounded lg:px-5 lg:pt-36 ">
+						<h2 className="text-white text-center text-5xl font-semibold mb-8 lg:text-5xl">Contact Me</h2>
 						<p className="text-white text-center text-md font-semibold mb-5 lg:text-2xl">
-							Replies within 24 hours
+							Replies within <br /> 24 hours
 						</p>
 					</div>
 
 					<form
 						name="Feedback form"
 						method="post"
-						className="flex flex-col bg-green-300 py-5 px-10 rounded lg:w-7/12"
+						className="flex flex-col bg-green-300 py-5 px-10 rounded lg:w-6/12"
 					>
 						<input
 							type="text"

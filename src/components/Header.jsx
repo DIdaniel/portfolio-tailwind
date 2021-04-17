@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <header className="flex justify-between py-5 px-5 absolute w-full text-white">
       <div className="logo">
-        <h2 className="text-3xl lg:text-5xl">
-          <Link to="/">DONG-IL</Link>
+        <h2 className="text-3xl lg:text-4xl ">
+          <Link to="/"><span className="transition-all hover:text-yellow-200">DONG-IL</span></Link>
         </h2>
       </div>
 

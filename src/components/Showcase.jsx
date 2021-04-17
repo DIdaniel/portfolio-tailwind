@@ -5,20 +5,20 @@ const Showcase = () => {
 	return (
 		<section className="showcase">
 			<div className="overlay flex flex-col items-center justify-center text-white px-5">
-				<h1 className="text-5xl font-bold text-right mb-10 lg:text-center lg:text-7xl lg:px-56">
-					I create <span className="text-green-500">brand awareness</span> <br />for small business
+				<h1 className="text-5xl font-bold text-right mb-10 lg:text-center lg:text-7xl lg:px-56 lg:pb-5">
+					Ambition is<span className="text-green-500"> enthusiasm </span> <br /> with a purpose.
 				</h1>
 
 				<div className="ml-auto lg:ml-0">
 					<Link
 						to="/hire"
-						className="mr-5 bg-green-500 p-2 px-5 rounded-full font-semibold transition-all hover:bg-green-800"
+						className="mr-5 bg-green-500 p-3 px-7 rounded-full font-semibold transition-all hover:bg-green-800"
 					>
 						Get Started
 					</Link>
 					<Link
 						to="/projects"
-						className="lg:mr-5 bg-white text-green-500 p-2 px-5 rounded-full font-semibold transition-all hover:bg-green-800 hover:text-white"
+						className="lg:mr-5 bg-white text-green-500 p-3 px-7 rounded-full font-semibold transition-all hover:bg-green-800 hover:text-white"
 					>
 						Projects
 					</Link>
