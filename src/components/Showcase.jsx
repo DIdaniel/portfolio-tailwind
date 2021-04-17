@@ -26,6 +26,7 @@ const Showcase = () => {
 						<a
 							href="https://github.com/DIdaniel"
 							target="_blank"
+							rel="noreferrer"
 							className="mr-5 bg-yellow-300 p-1 px-3 rounded-full font-semibold transition-all text-4xl hover:bg-yellow-600"
 						>
 							<i class="fab fa-github-square" />
@@ -33,6 +34,7 @@ const Showcase = () => {
 						<a
 							href="https://velog.io/@faunus"
 							target="_blank"
+							rel="noreferrer"
 							className="mr-5 bg-yellow-300 p-1 px-3 rounded-full font-semibold transition-all text-4xl hover:bg-yellow-600"
 						>
 							<i class="fab fa-blogger" />
