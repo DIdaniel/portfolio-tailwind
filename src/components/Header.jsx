@@ -21,7 +21,7 @@ const Header = () => {
           <li>
             <Link 
               to="/hire"
-              className="mr-5 bg-green-500 p-1 px-4 rounded-full font-semibold transition-all hover:bg-green-800">
+              className="mr-5 bg-yellow-300 p-1 px-4 rounded-full font-semibold transition-all hover:bg-yellow-600">
               HIRE
             </Link>
           </li>

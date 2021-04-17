@@ -22,6 +22,22 @@ const Showcase = () => {
 					>
 						Projects
 					</Link>
+					<div className="lg:pt-16 lg:ml-20">
+						<a
+							href="https://github.com/DIdaniel"
+							target="_blank"
+							className="mr-5 bg-yellow-300 p-1 px-3 rounded-full font-semibold transition-all text-4xl hover:bg-yellow-600"
+						>
+							<i class="fab fa-github-square" />
+						</a>
+						<a
+							href="https://velog.io/@faunus"
+							target="_blank"
+							className="mr-5 bg-yellow-300 p-1 px-3 rounded-full font-semibold transition-all text-4xl hover:bg-yellow-600"
+						>
+							<i class="fab fa-blogger" />
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>
