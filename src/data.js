@@ -2,7 +2,7 @@ const data = [
 	{
 		id: 1,
 		path: './images/meditation.gif',
-		desc: 'meditation'
+		desc: 'Meditation app'
 	},
 	{
 		id: 2,
@@ -12,7 +12,7 @@ const data = [
 	{
 		id: 3,
 		path: './images/morden.gif',
-		desc: 'morden'
+		desc: 'Morden design'
 	},
 	{
 		id: 4,
@@ -27,7 +27,7 @@ const data = [
 	{
 		id: 6,
 		path: './images/cat.gif',
-		desc: '3D card Cat'
+		desc: '3D Cat Card'
 	}
 ];
 

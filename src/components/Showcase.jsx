@@ -22,12 +22,12 @@ const Showcase = () => {
 					>
 						Projects
 					</Link>
-					<div className="lg:pt-16 lg:ml-20">
+					<div className="lg:pt-12 lg:ml-20 ">
 						<a
 							href="https://github.com/DIdaniel"
 							target="_blank"
 							rel="noreferrer"
-							className="mr-5 bg-yellow-300 p-1 px-3 rounded-full font-semibold transition-all text-4xl hover:bg-yellow-600"
+							className="mr-5 bg-yellow-300 p-2 px-4 rounded-full font-semibold transition-all text-4xl hover:bg-yellow-600"
 						>
 							<i class="fab fa-github-square" />
 						</a>
@@ -35,7 +35,7 @@ const Showcase = () => {
 							href="https://velog.io/@faunus"
 							target="_blank"
 							rel="noreferrer"
-							className="mr-5 bg-yellow-300 p-1 px-3 rounded-full font-semibold transition-all text-4xl hover:bg-yellow-600"
+							className="mr-5 bg-yellow-300 p-2 px-4 rounded-full font-semibold transition-all text-4xl hover:bg-yellow-600"
 						>
 							<i class="fab fa-blogger" />
 						</a>
